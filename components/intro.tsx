@@ -30,8 +30,8 @@ export default function Intro() {
                     }}
                 >
                 <Image 
-                src="/infoImages/DogukanProfile.jpg"
-                alt="Dogukan portrait"
+                src="/infoImages/EllenProfile.png"
+                alt="Ellen portrait"
                 width = "192"
                 height= "192"
                 quality="100"
