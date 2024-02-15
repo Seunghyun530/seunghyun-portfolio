@@ -8,12 +8,13 @@ export default function Footer() {
         <small
         className="block mb-2 text-s"
         >
-            &copy; 2024 Doğukan Kaan Bozkurt. All rights reserved.
+            &copy; 2024 Seunghyun Ko All rights reserved.
         </small>
         <p
         className="text-xs"
         >
-            <span className="font-semibold">About this website:</span> built with React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, Vercel hosting.
+            <span className="font-semibold">About this website:</span> built by {" "}
+            <a href="https://github.com/dkbozkurt">@dkbozkurt</a>
         </p>
     </footer>
   )
