@@ -4,9 +4,8 @@ import Image from 'next/image'
 import React from 'react'
 import {motion} from "framer-motion";
 import Link from 'next/link';
-import { BsArrowRight, BsBehance, BsLinkedin} from "react-icons/bs";
+import { BsArrowRight, BsInstagram} from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaBehanceSquare, FaGithubSquare } from 'react-icons/fa';
 import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
 
@@ -47,12 +46,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         >
-            <span className="font-bold">Hello,</span> I'm {" "}
-            <span className="font-bold">Dogukan Kaan Bozkurt.</span> I'm a{" "}
-            <span className="font-bold">Playable Ads. Developer/ Web Developer.</span> I enjoy crafting{" "}
-            <span className="italic">automation tools,</span> building{" "}
-            <span className="italic">interactive advertisements,</span> and bringing{" "}
-            <span className="italic">innovative designs</span> to life.
+            <span className="font-bold">Halo,</span> Ich bin {" "}
+            <span className="font-bold">Seunghyun Ko.</span> I am a{" "}
+            <span className="font-bold">Cute thing</span> I enjoy{" "}
+            <span className="italic">my cheeks getting destroyed,</span> and{" "}
+            <span className="italic">getting attacked by Dogu.</span>
         </motion.h1>
 
         <motion.div 
@@ -77,7 +75,7 @@ export default function Intro() {
 
             <a 
             className="flex items-center gap-2 py-3 transition bg-white rounded-full outline-none cursor-pointer group px-7 focus:scale-110 hover:scale-110 active:scale-105 borderBlack"
-            href="/CV_DogukanKaanBozkurt.pdf" 
+            href="/Lebenslauf-Seunghyun_Ellen_Ko.pdf" 
             download={true}
             >
                 Download CV 
@@ -88,9 +86,9 @@ export default function Intro() {
             <div className= "flex items-stretch gap-2">
             <a
             className="flex items-center gap-2 p-4 text-gray-700 transition bg-white rounded-full cursor-pointer focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 borderBlack"
-            href="https://www.linkedin.com/in/dkbozkurt/en" target="_blank"
+            href="https://www.instagram.com/hyun.ellen/" target="_blank"
             >
-                <BsLinkedin />
+                <BsInstagram />
             </a>
 
             </div>
