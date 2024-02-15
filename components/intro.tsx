@@ -36,21 +36,9 @@ export default function Intro() {
                 height= "192"
                 quality="100"
                 priority={true}
-                className = "mt-16 w-40 h-40 rounded-full object-cover border-[0.35rem] border-white shadow-xl sm:w-48 sm:h-48 sm:mt-0 w-"
+                className="mt-16 w-40 h-40 rounded-full object-cover border-[0.1rem] border-black shadow-xl sm:w-[25rem] sm:h-[25rem] sm:mt-0 "
                 />
                 </motion.div>
-                <motion.span 
-                className= "absolute bottom-0 right-0 text-5xl sm:text-6xl "
-                initial ={{opacity: 0, scale: 0}}
-                animate={{opacity: 1, scale: 1}}
-                transition={{
-                    type:"spring",
-                    stiffness: 125,
-                    delay:0.1,
-                    duration:0.7,
-                }}
-                >👋</motion.span>
-                
             </div>
         </div>
 
@@ -105,21 +93,6 @@ export default function Intro() {
                 <BsLinkedin />
             </a>
 
-
-            <a
-            className="flex items-center gap-2 p-4 text-[1.35rem] text-gray-700 transition bg-white rounded-full cursor-pointer focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 borderBlack"
-            href="https://github.com/dkbozkurt" target="_blank"
-            >
-                <FaGithubSquare/>
-            </a>
-
-
-            <a
-            className="flex items-center gap-2 p-4 text-[1.35rem] text-gray-700 transition bg-white rounded-full cursor-pointer focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 borderBlack"
-            href="https://behance.com/dkbozkurt" target="_blank"
-            >
-                <FaBehanceSquare/>
-            </a>
             </div>
 
             
