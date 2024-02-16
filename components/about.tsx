@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from '@/lib/hooks';
 
 export default function About() {
-    const { ref } = useSectionInView("Biography",0.5);
+    const { ref } = useSectionInView("Biographie",0.5);
 
     return (
     <motion.section
@@ -18,7 +18,7 @@ export default function About() {
     id="biography"
     >
         <SectionHeading>
-            Biography
+            Biographie
         </SectionHeading>
         <p
         className="mb-6"

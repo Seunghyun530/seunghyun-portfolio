@@ -8,15 +8,15 @@ import { educationData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
 
 export default function Education() {
-    const { ref } = useSectionInView("Education");
+    const { ref } = useSectionInView("Aktuelle");
   
     return (
     <section
-    id="education"
+    id="newconcerts"
     ref = {ref} 
     className = "scroll-mt-20 mb-28 sm:mb-40 sm:scroll-mt-28"
     >
-        <SectionHeading>Education</SectionHeading>
+        <SectionHeading>Aktuelle</SectionHeading>
         <VerticalTimeline lineColor="">
             {educationData.map((item, index) => (
                 <React.Fragment key={index}>

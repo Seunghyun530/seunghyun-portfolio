@@ -9,23 +9,23 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "Biography",
+    name: "Biographie",
     hash: "#biography",
   },
   {
-    name: "Education",
-    hash: "#education",
+    name: "Aktuelle",
+    hash: "#newconcerts",
   },
   {
-    name: "Concerts",
-    hash: "#concerts",
+    name: "Vergangen",
+    hash: "#oldconcerts",
   },
   {
-    name: "Media",
+    name: "Medien",
     hash: "#media",
   },
   {
-    name: "Contact",
+    name: "Kontakt",
     hash: "#contact",
   }
 ] as const;
