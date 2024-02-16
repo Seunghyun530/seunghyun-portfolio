@@ -46,11 +46,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         >
-            <span className="font-bold">Halo,</span> Ich bin {" "}
-            <span className="font-bold">Seunghyun Ko.</span> I am a{" "}
-            <span className="font-bold">Cute thing</span> I enjoy{" "}
-            <span className="italic">my cheeks getting destroyed,</span> and{" "}
-            <span className="italic">getting attacked by Dogu.</span>
+            <span className="font-bold">Seunghyun Ellen Ko</span>
         </motion.h1>
 
         <motion.div 

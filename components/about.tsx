@@ -23,13 +23,16 @@ export default function About() {
         <p
         className="mb-6"
         >
-            After completing programming-based courses in university and earning a bachelor's degree in Electrical & Electronics Engineering, I decided to pursue my passion for software development. I enrolled in volunteer software development internships and acquired the fundamentals of software development through hands-on work. My favorite aspect of programming is discovering creative solutions to problems. I love the feeling of finally figuring out a solution. My core stack includes C#, C++, Python, and JavaScript, and I am also familiar with TypeScript. I am always eager to learn new technologies and keep my GitHub fresh and updated.
+            Seunghyun Ellen Ko wurde am 30. Mai 2001 in Südkorea geboren und erhielt im Alter von 8 Jahren ihren ersten Klarinettenunterricht. Derzeit studiert sie Musik an der Folkwang Universität der Künste in Essen, Deutschland, bei Professorin Nicola Jürgensen. Gleichzeitig nimmt sie am Erasmus-Programm am Mozarteum in Salzburg, Österreich, teil, wo sie von Professor Andreas Schablas betreut wird.
         </p>
         <p className = "mb-6">
-            After starting my working life, I closely collaborated with design and marketing teams. My interest in the field of art drew me into the world of design. "Design" helps me express my creative ideas. I wouldn't call myself a designer, but I like to spend time doodling or using modeling apps.
+            Ergänzt wird ihre Ausbildung durch die Teilnahme an renommierten Akademien wie der Sommerakademie am San Francisco Conservatory, bereits mit 12 Jahren, und an Meisterkursen bei Martin Spangenberg, Ralph Manno, Kilian Herold, Sebastian Manz, Francois Benda, Yehuda Gilad, Roman Guyot und Pascal Moragues.
+        </p>
+        <p className = "mb-6">
+            Seit ihrer Kindheit ist sie auch als Solistin aktiv. Bereits im Alter von 13 Jahren gewann sie den 2. Preis beim US Open Music Competition. Darüber hinaus hat sie an weiteren Wettbewerben wie dem Virtuoso International Competition teilgenommen und dort beeindruckende Leistungen gezeigt. Ihre Fähigkeiten als Solistin wurden durch ein Solo-Rezital, das von der Shinhan-Stiftung gesponsert wurde, gefördert. Während ihres Bachelorstudiums erhielt sie außerdem Unterstützung durch das Deutschlandstipendium, das sie zwei Jahre lang begleitete.
         </p>
         <p>
-            When I'm not coding or designing, I love traveling, savoring sushi and exploring the fascinating world of geography. I have traveled to 25 countries so far and want to continually explore the planet I live on. I also enjoy learning new things and am currently learning German.
+            Sie ist auch aktiv als Orchester- und Kammermusikerin tätig. Derzeit spielt sie aktiv als Substitutin in der Philharmonie Salzburg und hat mit dem Mannheimer Streichquartett das Brahms Klarinettenquintett aufgeführt, zusammen mit Konzertmeisterinnen und Solospielern aus den Essener und Dortmunder Philharmonikern. Zudem hat sie kammermusikalische Auftritte in renommierten Konzertsälen wie der Berliner Philharmonie, dem Kammermusiksaal in München, dem Kulturpalast in Dresden und der Laeiszhalle in Hamburg.
         </p>
 
     </motion.section>
