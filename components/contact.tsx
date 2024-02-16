@@ -9,7 +9,7 @@ import SubmitBtn from './submit-btn';
 import toast from 'react-hot-toast';
 
 export default function Contact() {
-    const {ref} = useSectionInView("Contact");
+    const {ref} = useSectionInView("Kontakt");
 
   return (
     <motion.section
@@ -25,13 +25,13 @@ export default function Contact() {
         once: true,
     }}
     >
-        <SectionHeading>Contact Me</SectionHeading>
+        <SectionHeading>Kontakt</SectionHeading>
 
         <p className="-mt-5 text-gray-700">
-            Please contact me directly at{" "}
+            Schreiben Sie mir bitte eine E-Mail an{" "}
             <a className = "underline" href="mailto:seunghyunko530@gmail.com">seunghyunko530@gmail.com
             </a>
-            {" "}or through this form.</p>
+            {" "}oder nutzen Sie dieses Formular.</p>
             
             <form className="flex flex-col mt-10"
             action={async (formData) => {
@@ -42,7 +42,7 @@ export default function Contact() {
                     return;
                 }
 
-                toast.success("Email sent successfully!");
+                toast.success("E-Mail erfolgreich versendet!");
             }}
             >
                 <input 
@@ -51,14 +51,14 @@ export default function Contact() {
                 type="email" 
                 required
                 maxLength={500}
-                placeholder="Your email..." 
+                placeholder="Ihre E-Mail..." 
                 />
                 <textarea 
                 name="message"
                 className="p-4 my-3 rounded-lg h-52 borderBlack" 
                 required
                 maxLength={1000}
-                placeholder="Your message..."
+                placeholder="Ihre Nachricht..."
                 />
 
                 <SubmitBtn />

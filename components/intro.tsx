@@ -35,7 +35,7 @@ export default function Intro() {
                 height= "192"
                 quality="100"
                 priority={true}
-                className="mt-16 w-40 h-40 rounded-full object-cover border-[0.1rem] border-black shadow-xl sm:w-[25rem] sm:h-[25rem] sm:mt-0 "
+                className="mt-8 w-[20rem] h-[20rem] rounded-full object-cover border-[0.1rem] border-black shadow-xl sm:w-[25rem] sm:h-[25rem] sm:mt-0 "
                 />
                 </motion.div>
             </div>
@@ -46,11 +46,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         >
-            <span className="font-bold">Halo,</span> Ich bin {" "}
-            <span className="font-bold">Seunghyun Ko.</span> I am a{" "}
-            <span className="font-bold">Cute thing</span> I enjoy{" "}
-            <span className="italic">my cheeks getting destroyed,</span> and{" "}
-            <span className="italic">getting attacked by Dogu.</span>
+            <span className="font-bold">Seunghyun Ellen Ko</span>
         </motion.h1>
 
         <motion.div 
@@ -64,11 +60,11 @@ export default function Intro() {
             <Link href="#contact"
             className="flex items-center gap-2 py-3 text-white transition bg-gray-900 rounded-full outline-none group px-7 focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105"
             onClick={()=> {
-                setActiveSection("Contact");
+                setActiveSection("Kontakt");
                 setTimeOfLastClick(Date.now());
             }}
             >
-                Contact me here 
+                Kontakt
                 <BsArrowRight 
                 className ="transition opacity-70 group-hover:translate-x-2"/>
             </Link>
@@ -78,7 +74,7 @@ export default function Intro() {
             href="/Lebenslauf-Seunghyun_Ellen_Ko.pdf" 
             download={true}
             >
-                Download CV 
+                Vita 
                 <HiDownload 
                 className= "opacity-60 group-hover:translate-y-1 translation"/>
             </a>

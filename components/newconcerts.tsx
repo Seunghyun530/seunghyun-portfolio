@@ -4,21 +4,21 @@ import React from 'react'
 import SectionHeading from './section-heading'
 import { VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 import "react-vertical-timeline-component/style.min.css";
-import { experiencesData } from '@/lib/data';
+import { newConcertData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
 
-export default function Concerts() {
-    const { ref } = useSectionInView("Concerts");
+export default function NewConcerts() {
+    const { ref } = useSectionInView("Aktuelle");
   
     return (
     <section
-    id="concerts"
+    id="newconcerts"
     ref = {ref} 
-    className = "scroll-mt-28 mb-28 sm:mb-40"
+    className = "scroll-mt-20 mb-28 sm:mb-40 sm:scroll-mt-28"
     >
-        <SectionHeading>Concerts</SectionHeading>
+        <SectionHeading>Aktuelle</SectionHeading>
         <VerticalTimeline lineColor="">
-            {experiencesData.map((item, index) => (
+            {newConcertData.map((item, index) => (
                 <React.Fragment key={index}>
                     <VerticalTimelineElement
                         contentStyle ={{
@@ -32,7 +32,7 @@ export default function Concerts() {
                             borderRight: "0.4rem solid #9ca3af",
                         }}
                         date={item.date}
-                        icon={item.icon}
+                        icon= {item.icon}
                         iconStyle={{
                             background: "white",
                             fontSize: "1.5rem",
@@ -43,8 +43,6 @@ export default function Concerts() {
                         </h3>
                         <p className="font-normal !mt-0"
                         >
-                            {item.company}
-                            {" "}<span>&#8226;</span>{" "}
                             {item.location}
                         </p>
                         <p className ="!mt-1 !font-normal text-gray-700">
