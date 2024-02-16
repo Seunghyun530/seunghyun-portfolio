@@ -10,7 +10,7 @@ export default function Media() {
     <section 
     id="media"
     ref = {ref}
-    className="scroll-mt-20"
+    className="scroll-mt-20 sm:scroll-mt-28"
     >
         <SectionHeading>Media</SectionHeading>
     </section>
