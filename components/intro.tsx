@@ -60,11 +60,11 @@ export default function Intro() {
             <Link href="#contact"
             className="flex items-center gap-2 py-3 text-white transition bg-gray-900 rounded-full outline-none group px-7 focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105"
             onClick={()=> {
-                setActiveSection("Contact");
+                setActiveSection("Kontakt");
                 setTimeOfLastClick(Date.now());
             }}
             >
-                Contact me here 
+                Kontakt
                 <BsArrowRight 
                 className ="transition opacity-70 group-hover:translate-x-2"/>
             </Link>
@@ -74,7 +74,7 @@ export default function Intro() {
             href="/Lebenslauf-Seunghyun_Ellen_Ko.pdf" 
             download={true}
             >
-                Download CV 
+                Vita 
                 <HiDownload 
                 className= "opacity-60 group-hover:translate-y-1 translation"/>
             </a>
