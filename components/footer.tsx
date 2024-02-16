@@ -14,7 +14,7 @@ export default function Footer() {
         className="text-xs"
         >
             <span className="font-semibold">About this website:</span> built by {" "}
-            <a href="https://github.com/dkbozkurt">@dkbozkurt</a>
+            <a href="https://www.linkedin.com/in/dkbozkurt/">@dkbozkurt</a>
         </p>
     </footer>
   )

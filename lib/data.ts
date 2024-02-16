@@ -40,15 +40,6 @@ export const experiencesData = [
     date: "Apr. 2023 - Present",
   },
   {
-    title: "Playable Ads & Marketing Game Developer",
-    company: "Panteon Games",
-    location: "Ankara, Turkey",
-    description:
-      "Developing and designing playable ads using Unity, LunaLabs, and C#. Enhancing game play, integrating new mechanics/features, and applying creative elements to maximize game attractiveness for advertising. Developing extensions/ packages for playable ads development in Unity using C#.",
-    icon: React.createElement(CgWorkAlt),
-    date: "Nov. 2021 - Apr. 2023",
-  },
-  {
     title: "Technical Customer Support Specialist",
     company: "Ekmob SFA",
     location: "Istanbul, Turkey",
@@ -97,11 +88,11 @@ export const experiencesData = [
 
 export const educationData = [
     {
-        title: "B.S., Electrical & Electronics Engineering (%100 English)",
-        university: "Eskisehir Osmangazi University",
-        location: "Eskisehir, Turkey",
+        title: "Bachelor Musik",
+        university: "Folkwang Universität der Künste",
+        location: "Essen, Deutschland",
         description: "After completing the English preparatory year, I pursued software-related courses in computer science and graduated with a GPA of 3.01/4.0. During my academic journey, I had the opportunity to work as an intern in the Artificial Intelligence and Robotics Lab.. Additionally, I took an active role in developing the website for the university's Artificial Intelligence and Robotics Lab. course",
         icon: React.createElement(LuGraduationCap),
-        date: "Sep. 2016 - Aug. 2021",
+        date: "Okt. 2020 - Present",
     }
 ] as const;
