@@ -47,6 +47,13 @@ export const oldConcertsData = [
         icon: React.createElement(GiClarinet),
         date: "Mon. 22. 01.22- 18 Uhr",
     },
+    {
+        title: "Bad Reichenhaller Philharmoniker",
+        location: "Taufkirchen, Köglweg 5, 82024 ",
+        description: "Abgesagt",
+        icon: React.createElement(GiClarinet),
+        date: "Sam. 06.01.24 &  Fri.12.01.24",
+    },
 ] as const;
 
 export const newConcertData = [
