@@ -4,10 +4,10 @@ import React from 'react'
 import SectionHeading from './section-heading'
 import { VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 import "react-vertical-timeline-component/style.min.css";
-import { experiencesData } from '@/lib/data';
+import { oldConcertsData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
 
-export default function Concerts() {
+export default function OldConcerts() {
     const { ref } = useSectionInView("Vergangen");
   
     return (
@@ -18,7 +18,7 @@ export default function Concerts() {
     >
         <SectionHeading>Vergangen</SectionHeading>
         <VerticalTimeline lineColor="">
-            {experiencesData.map((item, index) => (
+            {oldConcertsData.map((item, index) => (
                 <React.Fragment key={index}>
                     <VerticalTimelineElement
                         contentStyle ={{
@@ -32,10 +32,10 @@ export default function Concerts() {
                             borderRight: "0.4rem solid #9ca3af",
                         }}
                         date={item.date}
-                        icon={item.icon}
+                        icon= {item.icon}
                         iconStyle={{
                             background: "white",
-                            fontSize: "1.5rem",
+                            fontSize: "8rem",
                         }}
                     >
                         <h3 className="text-lg font-semibold capitalize">
@@ -43,8 +43,6 @@ export default function Concerts() {
                         </h3>
                         <p className="font-normal !mt-0"
                         >
-                            {item.company}
-                            {" "}<span>&#8226;</span>{" "}
                             {item.location}
                         </p>
                         <p className ="!mt-1 !font-normal text-gray-700">
