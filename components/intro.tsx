@@ -35,7 +35,7 @@ export default function Intro() {
                 height= "192"
                 quality="100"
                 priority={true}
-                className="mt-16 w-40 h-40 rounded-full object-cover border-[0.1rem] border-black shadow-xl sm:w-[25rem] sm:h-[25rem] sm:mt-0 "
+                className="mt-8 w-[20rem] h-[20rem] rounded-full object-cover border-[0.1rem] border-black shadow-xl sm:w-[25rem] sm:h-[25rem] sm:mt-0 "
                 />
                 </motion.div>
             </div>

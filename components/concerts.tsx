@@ -14,7 +14,7 @@ export default function Concerts() {
     <section
     id="concerts"
     ref = {ref} 
-    className = "scroll-mt-28 mb-28 sm:mb-40"
+    className = "scroll-mt-20 mb-28 sm:mb-40"
     >
         <SectionHeading>Concerts</SectionHeading>
         <VerticalTimeline lineColor="">
