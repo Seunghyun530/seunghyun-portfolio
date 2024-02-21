@@ -1,9 +1,11 @@
 
 import React from "react";
 import { GiClarinet  } from "react-icons/gi";
-import { LuGraduationCap } from "react-icons/lu";
-
-import clarinet from "@/public/Clarinet.png";
+import photo1 from "@/public/ellenImages/1.png";
+import photo2 from "@/public/ellenImages/2.png";
+import photo3 from "@/public/ellenImages/3.png";
+import photo4 from "@/public/ellenImages/4.png";
+import photo5 from "@/public/ellenImages/5.png";
 
 export const links = [
   {
@@ -78,4 +80,23 @@ export const newConcertData = [
         icon: React.createElement(GiClarinet),
         date: "Di.25.04.24- 20 Uhr",
     },
+] as const;
+
+export const mediaData = [
+    {
+        image:photo1,
+    },
+    {
+        image:photo4,
+    },
+    {
+        image:photo3,
+    },
+    {
+        image:photo5,
+    },
+    {
+        image:photo2,
+    },
+    
 ] as const;
