@@ -4,7 +4,7 @@ import About from "@/components/about";
 import OldConcerts from "@/components/oldconcerts";
 import Contact from "@/components/contact";
 import NewConcerts from "@/components/newconcerts";
-import Media from "@/components/media";
+import Medias from "@/components/medias";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <About />
         <NewConcerts />
         <OldConcerts />
-        <Media />
+        <Medias />
         <Contact />
     </main>
   )

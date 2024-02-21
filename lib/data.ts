@@ -79,3 +79,21 @@ export const newConcertData = [
         date: "Di.25.04.24- 20 Uhr",
     },
 ] as const;
+
+export const mediaData = [
+    {
+        image:"",
+    },
+    {
+        image:"",
+    },
+    {
+        image:"",
+    },
+    {
+        image:"",
+    },
+    {
+        image:"",
+    },
+] as const;
