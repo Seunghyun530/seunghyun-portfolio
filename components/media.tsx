@@ -24,11 +24,10 @@ export default function Media({
             <Image 
             src={image} 
             alt="Image" 
-            quality={95}
+            quality={75}
             className="
-            transition rounded-s flex justify-center group-hover:scale-[1.2] shadow-2xl 
-            absolute m-5 w-[3rem] mr-[18rem]
-            sm:relative sm:w-[4rem] sm:rounded-xl sm:mt-8 sm:mb-4 sm:mr-5"
+            transition rounded-s flex justify-center group-hover:scale-[0.95] shadow-2xl 
+            absolute w-[24rem] h-[24rem] rounded-lg"
             />
         </section>
         </motion.div>
